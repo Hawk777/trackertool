@@ -1,0 +1,16 @@
+[package]
+name = "trackertool"
+version = "0.1.0"
+authors = ["Christopher Head"]
+edition = "2021"
+resolver = "2"
+description = "Manipulates Minecraft Mineral Tracker data files"
+repository = "https://gitlab.com/Hawk777/trackertool"
+keywords = ["minecraft", "mineral", "tracker"]
+categories = ["command-line-utilities", "games"]
+license = "GPL-3.0-only"
+
+[dependencies.clap]
+default-features = false
+features = ["wrap_help"]
+version = "^2.34"
